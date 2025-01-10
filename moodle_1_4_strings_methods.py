@@ -1,0 +1,6 @@
+my_string=input()
+print(f"длина строки: {len(my_string)}")
+print(f"строка в верхнем регистре: {my_string.upper()}")
+print(f"строка в нижнем регистре: {my_string.lower()}")
+print(f"строка без пробелов: {my_string.replace(' ','')}")
+print(f"последний символ строки: {my_string[-1]}")
